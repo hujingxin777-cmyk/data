@@ -1,0 +1,5 @@
+experiment_family,scenario_name,condition_name,persona_name,chat_atmosphere,n_obs,mean_nsb,mean_nci_comp
+main,influenza_a,independent,main_baseline_neutral,none,10,0.0,0.0
+main,influenza_a,low_feedback,main_baseline_neutral,none,10,0.0,0.0
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,10,0.5,2.0
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,10,0.0,0.0

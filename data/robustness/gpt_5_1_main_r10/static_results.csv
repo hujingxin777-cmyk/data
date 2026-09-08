@@ -1,0 +1,321 @@
+experiment_family,scenario_name,condition_name,persona_name,chat_atmosphere,report_1_polarity,report_2_polarity,repeat_index,timestep,success,error_message,final_choice,credible_choice,share_choice,comment_choice,like_choice,reason,reason_signal,nsb,cb,sb,eb,nci_comp,raw_response
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,none,neutral,positive,两边都提到地区差异，但报道1既承认上升又说明多数病例几天内缓解、学校和社区有具体应对措施，相比报道2以零散个案和担忧为主，我更容易接受成整体上仍然是可应对的季节性波动。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""两边都提到地区差异，但报道1既承认上升又说明多数病例几天内缓解、学校和社区有具体应对措施，相比报道2以零散个案和担忧为主，我更容易接受成整体上仍然是可应对的季节性波动。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,none,neutral,positive,报道2提到一线门诊和学校通过请假隔离、通风消毒等措施能把传播链压住，说明医院和校园整体还撑得住，就诊压力看起来更在可控范围内。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到一线门诊和学校通过请假隔离、通风消毒等措施能把传播链压住，说明医院和校园整体还撑得住，就诊压力看起来更在可控范围内。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,none,neutral,positive,只看这组材料，报道1同时提到病例多为短期缓解、学校和社区有具体应对措施，以及不同地区节奏不一样，整体描述更完整也更能对应“门诊压力波动”的背景。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""只看这组材料，报道1同时提到病例多为短期缓解、学校和社区有具体应对措施，以及不同地区节奏不一样，整体描述更完整也更能对应“门诊压力波动”的背景。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,4,1,True,,positive,positive,none,neutral,positive,两边都提到地区差异，但报道2对症状表现、几天内缓解和学校具体防控措施的描述更完整，我会暂时更相信是可应对的季节性上升。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到地区差异，但报道2对症状表现、几天内缓解和学校具体防控措施的描述更完整，我会暂时更相信是可应对的季节性上升。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,none,neutral,positive,两边都提到地区差异，但报道1既承认病例上升又强调多数几天内缓解、有学校和社区实际防控效果的线索，相比报道2主要是网友担忧和零散个案，我更直观地觉得前者整体更可信也更符合“可应对的季节性波动”。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""两边都提到地区差异，但报道1既承认病例上升又强调多数几天内缓解、有学校和社区实际防控效果的线索，相比报道2主要是网友担忧和零散个案，我更直观地觉得前者整体更可信也更符合“可应对的季节性波动”。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,none,neutral,positive,两边都提到有差异，但报道2说多数人几天内就能缓解、学校通过隔离和通风能压住传播链，这种“恢复较快且可应对”的描述目前对整体情况更有说服力。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到有差异，但报道2说多数人几天内就能缓解、学校通过隔离和通风能压住传播链，这种“恢复较快且可应对”的描述目前对整体情况更有说服力。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,7,1,True,,positive,positive,none,neutral,positive,两边都承认地区差异，但报道1提到多数病例几天内缓解、学校和社区的应对能压住传播链，相比报道2偏零散的就医压力和反复个案描述，我目前更觉得整体医院和校园应对能力说法更可信。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""两边都承认地区差异，但报道1提到多数病例几天内缓解、学校和社区的应对能压住传播链，相比报道2偏零散的就医压力和反复个案描述，我目前更觉得整体医院和校园应对能力说法更可信。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,none,neutral,positive,两边都提到地区差异，但报道2不仅承认病例增加，还给出大多数几天内缓解、学校有请假隔离和通风等具体应对措施，整体描述更完整、可控感更强。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到地区差异，但报道2不仅承认病例增加，还给出大多数几天内缓解、学校有请假隔离和通风等具体应对措施，整体描述更完整、可控感更强。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,none,neutral,positive,报道1虽然也承认各地情况有差异，但对症状、治疗方式和学校社区的应对措施描述得更具体完整，看起来更像是当前整体局面的可控季节性上升。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1虽然也承认各地情况有差异，但对症状、治疗方式和学校社区的应对措施描述得更具体完整，看起来更像是当前整体局面的可控季节性上升。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,10,1,True,,positive,positive,none,neutral,positive,两边都提到地区差异，但报道2有医生、家长和老师的具体观察，也说到通过请假隔离和通风消毒能控住传播链，整体叙事更完整、更像当前可应对的季节性波动。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到地区差异，但报道2有医生、家长和老师的具体观察，也说到通过请假隔离和通风消毒能控住传播链，整体叙事更完整、更像当前可应对的季节性波动。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,positive,support_positive,positive,报道1说多数人几天内缓解、学校和社区的防控能压住传播，评论里也在强调大部分按常规处理、恢复比较平稳，我整体更觉得是可应对的季节性波动为主。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说多数人几天内缓解、学校和社区的防控能压住传播，评论里也在强调大部分按常规处理、恢复比较平稳，我整体更觉得是可应对的季节性波动为主。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,positive,support_positive,positive,报道2里说多数病例几天内缓解、学校和社区防控能压住传播链，加上评论里也提到讨论增多但总体按常规处理、按医嘱恢复平稳，这些线索让我感觉医院和学校的应对目前还是比较跟得上的。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2里说多数病例几天内缓解、学校和社区防控能压住传播链，加上评论里也提到讨论增多但总体按常规处理、按医嘱恢复平稳，这些线索让我感觉医院和学校的应对目前还是比较跟得上的。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,none,support_positive,positive,报道1说的是整体可控、按常规处理为主，而评论2和3也在强调多数孩子按医嘱休息用药后恢复比较平稳，只是部分需要多观察几天，这和报道1的叙述更连在一起。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说的是整体可控、按常规处理为主，而评论2和3也在强调多数孩子按医嘱休息用药后恢复比较平稳，只是部分需要多观察几天，这和报道1的叙述更连在一起。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,4,1,True,,positive,positive,positive,support_positive,positive,报道2说的大多数短期发热、按常规处理几天缓解，跟评论里“多数还是按常规处理”“按医嘱恢复平稳”这些具体描述更一致，所以此刻更倾向整体可应对但需要留意个别恢复慢的情况。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2说的大多数短期发热、按常规处理几天缓解，跟评论里“多数还是按常规处理”“按医嘱恢复平稳”这些具体描述更一致，所以此刻更倾向整体可应对但需要留意个别恢复慢的情况。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,positive,support_positive,positive,报道1里强调大多数是几天内缓解、学校防控后传播链能压住，而且评论也在说多数按常规处理、主要是多观察几天，这些跟“可应对的季节性上升”更吻合。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1里强调大多数是几天内缓解、学校防控后传播链能压住，而且评论也在说多数按常规处理、主要是多观察几天，这些跟“可应对的季节性上升”更吻合。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,positive,support_positive,positive,报道2强调多数病例几天内缓解、按常规处理，与评论里“主要是交流恢复情况”“按医嘱恢复比较平稳”“多数还是按常规处理、个别才恢复慢”的说法更一致，所以我此刻更倾向这一边。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2强调多数病例几天内缓解、按常规处理，与评论里“主要是交流恢复情况”“按医嘱恢复比较平稳”“多数还是按常规处理、个别才恢复慢”的说法更一致，所以我此刻更倾向这一边。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,7,1,True,,positive,positive,positive,support_positive,positive,报道1说多数是短期发热、常规处理就能缓解，评论也提到按医嘱休息用药恢复平稳、学校有通风和请假登记，这些让我感觉医院和学校整体还能扛得住，就医压力暂时没到特别失控。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说多数是短期发热、常规处理就能缓解，评论也提到按医嘱休息用药恢复平稳、学校有通风和请假登记，这些让我感觉医院和学校整体还能扛得住，就医压力暂时没到特别失控。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,positive,support_positive,positive,报道2和评论里都在说多数病例几天内缓解、按常规处理，加上学校通风和请假管理这些具体可控措施，让我暂时更倾向于认为是可应对的季节性上升。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2和评论里都在说多数病例几天内缓解、按常规处理，加上学校通风和请假管理这些具体可控措施，让我暂时更倾向于认为是可应对的季节性上升。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,positive,support_positive,positive,报道1里提到大部分病例几天内缓解、学校和社区通过通风请假把传播压住，这些可控线索跟评论里“按医嘱恢复平稳、多数按常规处理”的说法比较一致，所以此刻更倾向觉得是可应对的上升。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1里提到大部分病例几天内缓解、学校和社区通过通风请假把传播压住，这些可控线索跟评论里“按医嘱恢复平稳、多数按常规处理”的说法比较一致，所以此刻更倾向觉得是可应对的上升。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,10,1,True,,positive,positive,positive,support_positive,positive,报道2说的是多数病例按常规几天内缓解、学校有请假隔离和通风这些具体做法，而且评论里也在强调‘多数还是按常规处理’和恢复平稳，这些和报道2更互相印证。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2说的是多数病例按常规几天内缓解、学校有请假隔离和通风这些具体做法，而且评论里也在强调‘多数还是按常规处理’和恢复平稳，这些和报道2更互相印证。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,none,neutral,positive,两篇都承认有恢复差异，但报道1同时提到大多数孩子几天到一两周能恢复、二次返诊不占多数以及医院在加号和分诊，整体感觉更贴近“就诊量上升但基本可控”的状态。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""两篇都承认有恢复差异，但报道1同时提到大多数孩子几天到一两周能恢复、二次返诊不占多数以及医院在加号和分诊，整体感觉更贴近“就诊量上升但基本可控”的状态。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,none,neutral,positive,这里只看材料的话，报道2既提到就诊量增加又说明医院在分诊和加号等方面有具体应对，让我感觉整体医院承压但还是比较可控。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""这里只看材料的话，报道2既提到就诊量增加又说明医院在分诊和加号等方面有具体应对，让我感觉整体医院承压但还是比较可控。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,3,1,True,,negative,negative,none,support_negative,negative,两篇都提到大多数孩子会恢复，但报道2更具体说到咳嗽拖久、复诊增多、门诊拥挤和家庭压力这些连续现象，相比之下更完整地解释了“就诊量增加、压力上升”的背景。,,1,1,0,1,3,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两篇都提到大多数孩子会恢复，但报道2更具体说到咳嗽拖久、复诊增多、门诊拥挤和家庭压力这些连续现象，相比之下更完整地解释了“就诊量增加、压力上升”的背景。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,4,1,True,,positive,positive,none,neutral,positive,报道2提到多数孩子在几天到一两周内按规范治疗就能恢复，还举了分诊、延时门诊、加开号源这些具体做法，相比之下让我感觉整体更可控一些。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到多数孩子在几天到一两周内按规范治疗就能恢复，还举了分诊、延时门诊、加开号源这些具体做法，相比之下让我感觉整体更可控一些。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,5,1,True,,negative,negative,negative,support_negative,negative,在两边都说情况有差异的前提下，报道2对咳嗽拖长、复诊增加和门诊拥挤这些具体压力描述得更细，跟“就诊量明显上升”的背景更贴近。,,1,1,1,1,4,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""在两边都说情况有差异的前提下，报道2对咳嗽拖长、复诊增加和门诊拥挤这些具体压力描述得更细，跟“就诊量明显上升”的背景更贴近。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,none,neutral,positive,在两边都承认个体差异的前提下，报道2提到“多数孩子几天到一两周内逐步恢复”和医院加号分诊这些具体做法，让我感觉整体恢复比较快、情况更可控。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""在两边都承认个体差异的前提下，报道2提到“多数孩子几天到一两周内逐步恢复”和医院加号分诊这些具体做法，让我感觉整体恢复比较快、情况更可控。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,7,1,True,,negative,negative,none,support_negative,negative,两边都提到门诊紧张，但报道2更强调挂号困难、夜间咳嗽反复和病程拖长这些具体的就医压力细节，我会更在意这些现实负担。,,1,1,0,1,3,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到门诊紧张，但报道2更强调挂号困难、夜间咳嗽反复和病程拖长这些具体的就医压力细节，我会更在意这些现实负担。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,none,neutral,positive,两边都提到个体差异，但报道2一边有儿科医生和学校老师的看法，一边还具体写了规范治疗后多数孩子在几天到一两周内恢复、医院通过分诊加号缓解压力，这些可控和恢复的线索更完整一些。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到个体差异，但报道2一边有儿科医生和学校老师的看法，一边还具体写了规范治疗后多数孩子在几天到一两周内恢复、医院通过分诊加号缓解压力，这些可控和恢复的线索更完整一些。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,9,1,True,,negative,negative,none,neutral,negative,报道2更具体提到咳嗽拖长、复诊增多和门诊拥挤这些持续压力，我会下意识觉得现在的影响比表面说的“多数很快恢复”要重一些。,,1,1,0,0,2,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2更具体提到咳嗽拖长、复诊增多和门诊拥挤这些持续压力，我会下意识觉得现在的影响比表面说的“多数很快恢复”要重一些。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,10,1,True,,positive,positive,none,neutral,positive,两边都提到差异，但报道2既承认就诊增多又强调大多数孩子在规范治疗后能在预期时间内恢复，还有医院分诊和加号这些具体缓解措施，看起来整体更贴近“有压力但基本可控”的情况。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""两边都提到差异，但报道2既承认就诊增多又强调大多数孩子在规范治疗后能在预期时间内恢复，还有医院分诊和加号这些具体缓解措施，看起来整体更贴近“有压力但基本可控”的情况。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,positive,support_positive,positive,报道1说多数孩子几天到一两周内逐步恢复，而且评论里也在强调按常规治疗大多能慢慢好转、个别恢复慢并不代表整体，这一套跟分诊和延时门诊的应对一起看起来更连贯。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说多数孩子几天到一两周内逐步恢复，而且评论里也在强调按常规治疗大多能慢慢好转、个别恢复慢并不代表整体，这一套跟分诊和延时门诊的应对一起看起来更连贯。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,positive,support_positive,positive,报道2里提到多数孩子按常规治疗几天到两周内逐步恢复、医院有分诊和延时门诊等应对措施，而且评论2、3、4也都在印证“就诊压力上升但整体仍可控”的感觉，让我此刻更偏向这边。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2里提到多数孩子按常规治疗几天到两周内逐步恢复、医院有分诊和延时门诊等应对措施，而且评论2、3、4也都在印证“就诊压力上升但整体仍可控”的感觉，让我此刻更偏向这边。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,positive,support_positive,positive,报道1和评论里都提到多数孩子按常规治疗几天到一两周内能恢复，医院也在分诊和延时门诊等具体缓解压力，这些线索相对更完整、可控，我此刻更愿意采纳这一边。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1和评论里都提到多数孩子按常规治疗几天到一两周内能恢复，医院也在分诊和延时门诊等具体缓解压力，这些线索相对更完整、可控，我此刻更愿意采纳这一边。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,4,1,True,,positive,positive,positive,support_positive,positive,报道2里说多数孩子按常规治疗后几天到一两周能恢复，医院有分诊和延时门诊等具体缓解措施，评论也在强调“多数仍可按常规处理、恢复节奏不同但整体可控”，这几条信息互相印证，让我此刻更倾向这一边。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2里说多数孩子按常规治疗后几天到一两周能恢复，医院有分诊和延时门诊等具体缓解措施，评论也在强调“多数仍可按常规处理、恢复节奏不同但整体可控”，这几条信息互相印证，让我此刻更倾向这一边。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,positive,support_positive,positive,评论里反复提到多数病例按常规治疗后逐步恢复、分诊和延时门诊在应对，这些跟报道1的整体可控和恢复节奏差异的说法更一致，让我更倾向认为目前情况总体仍在预期范围内。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""评论里反复提到多数病例按常规治疗后逐步恢复、分诊和延时门诊在应对，这些跟报道1的整体可控和恢复节奏差异的说法更一致，让我更倾向认为目前情况总体仍在预期范围内。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,positive,support_positive,positive,报道2说大多数孩子在几天到一两周内逐步恢复，而且评论也在强调多数病例按常规处理、分诊延时门诊等措施在运转，这跟我看到的“门诊忙但整体可控、恢复节奏差异不小但在观察范围内”这些线索更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2说大多数孩子在几天到一两周内逐步恢复，而且评论也在强调多数病例按常规处理、分诊延时门诊等措施在运转，这跟我看到的“门诊忙但整体可控、恢复节奏差异不小但在观察范围内”这些线索更一致。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,7,1,True,,positive,positive,positive,support_positive,positive,报道1说医院在通过分诊、延时门诊等缓解压力，多数孩子几天到一两周内逐步恢复，而且评论里也在呼应“多数病例仍按常规处理、不同孩子节奏不同”的说法，让我对整体医院应对能力相对更有信心。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说医院在通过分诊、延时门诊等缓解压力，多数孩子几天到一两周内逐步恢复，而且评论里也在呼应“多数病例仍按常规处理、不同孩子节奏不同”的说法，让我对整体医院应对能力相对更有信心。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,positive,support_positive,positive,报道2说大多数孩子在几天到一两周内恢复、二次返诊不算多，而且评论里也在提分诊、延时门诊和“多数病例按常规处理、逐步恢复”，和它的描述更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2说大多数孩子在几天到一两周内恢复、二次返诊不算多，而且评论里也在提分诊、延时门诊和“多数病例按常规处理、逐步恢复”，和它的描述更一致。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,positive,support_positive,positive,报道1说多数孩子几天到一两周内逐步恢复，又提到分诊、延时门诊等措施，评论里也在强调按常规处理、按医嘱复查和持续观察，这些具体的可控线索让我此刻更愿意相信整体仍以规范治疗后缓慢好转为主。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1说多数孩子几天到一两周内逐步恢复，又提到分诊、延时门诊等措施，评论里也在强调按常规处理、按医嘱复查和持续观察，这些具体的可控线索让我此刻更愿意相信整体仍以规范治疗后缓慢好转为主。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,10,1,True,,positive,positive,positive,support_positive,positive,报道2说大多数孩子按常规治疗几天到一两周内慢慢恢复，而且评论1、3、4里也都在印证“门诊有压力但多数病例可按常规处理、节奏有差异”的说法，让我整体更倾向于这一边。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2说大多数孩子按常规治疗几天到一两周内慢慢恢复，而且评论1、3、4里也都在印证“门诊有压力但多数病例可按常规处理、节奏有差异”的说法，让我整体更倾向于这一边。""
+}"

@@ -1,0 +1,3 @@
+experiment_family,scenario_name,condition_name,agent_persona_name,chat_atmosphere,n_rows,mean_nsb,mean_cb,mean_sb,mean_eb
+main,influenza_a,high_interaction,main_baseline_neutral,none,3990,0.5947,0.5945,0.4366,0.5895
+main,mycoplasma_pneumonia,high_interaction,main_baseline_neutral,none,2835,0.8106,0.8106,0.6392,0.8021

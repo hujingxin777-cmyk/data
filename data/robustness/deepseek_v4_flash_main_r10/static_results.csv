@@ -1,0 +1,321 @@
+experiment_family,scenario_name,condition_name,persona_name,chat_atmosphere,report_1_polarity,report_2_polarity,repeat_index,timestep,success,error_message,final_choice,credible_choice,share_choice,comment_choice,like_choice,reason,reason_signal,nsb,cb,sb,eb,nci_comp,raw_response
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,none,neutral,none,报道1提到大部分病例短期恢复，有具体应对措施，而报道2的个案虽提醒但代表性不足。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到大部分病例短期恢复，有具体应对措施，而报道2的个案虽提醒但代表性不足。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,2,1,True,,negative,negative,none,neutral,none,报道1中患者恢复时间拖长、家庭班级交叉感染压力更具体，而报道2的缓解描述较泛化，且承认地区差异，未能充分抵消风险线索。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中患者恢复时间拖长、家庭班级交叉感染压力更具体，而报道2的缓解描述较泛化，且承认地区差异，未能充分抵消风险线索。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,3,1,True,,negative,negative,none,neutral,negative,报道2提到高热反复、恢复时间拖长和交叉感染压力更明显，这些具体症状比报道1的常规缓解描述更让我担心实际风险可能被低估。,,1,1,0,0,2,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到高热反复、恢复时间拖长和交叉感染压力更明显，这些具体症状比报道1的常规缓解描述更让我担心实际风险可能被低估。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,4,1,True,,negative,negative,none,neutral,none,报道1中高热反复、恢复时间拖长、交叉感染压力更具体，而报道2的缓解描述较笼统。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中高热反复、恢复时间拖长、交叉感染压力更具体，而报道2的缓解描述较笼统。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,none,neutral,none,报道1提到了具体应对措施（请假隔离、通风消毒）和恢复路径，显得更系统，而报道2的个案和转述信息较零散，代表性不足。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到了具体应对措施（请假隔离、通风消毒）和恢复路径，显得更系统，而报道2的个案和转述信息较零散，代表性不足。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,none,neutral,none,报道2提到大部分病例短期可缓解，且学校和社区有应对措施，这让我觉得整体更可控，而报道1的个案和转述信息代表性不足。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道2提到大部分病例短期可缓解，且学校和社区有应对措施，这让我觉得整体更可控，而报道1的个案和转述信息代表性不足。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,7,1,True,,negative,negative,none,neutral,negative,报道2中高热反复、恢复时间拖长和交叉感染压力更具体，而报道1的缓解证据较笼统，且承认门诊压力不一。,,1,1,0,0,2,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2中高热反复、恢复时间拖长和交叉感染压力更具体，而报道1的缓解证据较笼统，且承认门诊压力不一。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,8,1,True,,negative,negative,none,neutral,none,报道1提到患者高热反复、恢复时间拖长、交叉感染压力明显，这些具体风险线索比报道2的常规描述更引起注意。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到患者高热反复、恢复时间拖长、交叉感染压力明显，这些具体风险线索比报道2的常规描述更引起注意。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,none,neutral,none,报道1提到大部分病例短期恢复、学校和社区能压住传播链，这些具体可控线索比报道2的个例和担忧更系统。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到大部分病例短期恢复、学校和社区能压住传播链，这些具体可控线索比报道2的个例和担忧更系统。""
+}"
+main,influenza_a,independent,main_baseline_neutral,none,negative,positive,10,1,True,,negative,negative,none,neutral,none,报道1中高热反复、恢复时间拖长、交叉感染压力等具体风险线索比报道2的常规描述更突出，虽有个案问题但值得注意。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中高热反复、恢复时间拖长、交叉感染压力等具体风险线索比报道2的常规描述更突出，虽有个案问题但值得注意。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,positive,support_positive,positive,报道1提到了具体应对措施如请假隔离、通风消毒能压住传播链，评论2和评论3也印证了按医嘱休息后恢复平稳，整体可控性更强。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到了具体应对措施如请假隔离、通风消毒能压住传播链，评论2和评论3也印证了按医嘱休息后恢复平稳，整体可控性更强。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,positive,support_positive,positive,报道2提到大部分病例短期可缓解，且评论中多数人提到常规处理平稳，学校也有应对措施，让我更倾向可控叙事。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到大部分病例短期可缓解，且评论中多数人提到常规处理平稳，学校也有应对措施，让我更倾向可控叙事。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,positive,support_positive,positive,报道1提到大部分病例短期恢复、学校和社区有应对措施，评论也多数支持常规处理，风险线索更分散。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大部分病例短期恢复、学校和社区有应对措施，评论也多数支持常规处理，风险线索更分散。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,4,1,True,,positive,positive,positive,support_positive,positive,报道2提到大部分病例短期可缓解，且评论中多数人反映恢复平稳、学校有应对，比报道1的零散个案更有代表性。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到大部分病例短期可缓解，且评论中多数人反映恢复平稳、学校有应对，比报道1的零散个案更有代表性。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,positive,support_positive,positive,报道1提到大部分病例短期恢复、常规治疗有效，评论也多数反映恢复平稳或按常规处理，风险线索不突出。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大部分病例短期恢复、常规治疗有效，评论也多数反映恢复平稳或按常规处理，风险线索不突出。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,6,1,True,,positive,positive,positive,support_positive,positive,评论提到多数恢复平稳、学校有措施，且报道2有具体缓解证据，比报道1的个案更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""评论提到多数恢复平稳、学校有措施，且报道2有具体缓解证据，比报道1的个案更一致。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,7,1,True,,positive,positive,positive,support_positive,positive,报道1提到大部分病例通过常规治疗能缓解，且学校有隔离消毒措施，评论也多反映恢复平稳，而报道2中的个案虽值得留意但代表性不足，结合医院应对能力来看，我更倾向报道1的可控判断。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大部分病例通过常规治疗能缓解，且学校有隔离消毒措施，评论也多反映恢复平稳，而报道2中的个案虽值得留意但代表性不足，结合医院应对能力来看，我更倾向报道1的可控判断。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,positive,support_positive,positive,报道2提供了更多关于常规治疗和学校应对的具体描述，且评论也多数提到恢复平稳和常规处理，整体线索更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提供了更多关于常规治疗和学校应对的具体描述，且评论也多数提到恢复平稳和常规处理，整体线索更一致。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,positive,support_positive,positive,报道1和评论2、3都提到多数病例经常规治疗能缓解，学校也有应对措施，这些具体线索比报道2中的零散个案更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1和评论2、3都提到多数病例经常规治疗能缓解，学校也有应对措施，这些具体线索比报道2中的零散个案更一致。""
+}"
+main,influenza_a,low_feedback,main_baseline_neutral,none,negative,positive,10,1,True,,positive,positive,positive,support_positive,positive,报道2提到大部分病例短期可缓解，且学校防控能压住传播链，而当前评论也多数反映恢复平稳、常规处理有效，所以我觉得整体可控的叙事更可靠。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到大部分病例短期可缓解，且学校防控能压住传播链，而当前评论也多数反映恢复平稳、常规处理有效，所以我觉得整体可控的叙事更可靠。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,1,1,True,,positive,positive,none,neutral,none,报道1提到大多数孩子规范治疗后几天到一两周恢复，二次返诊不占多数，并且医院有分诊等缓解措施，这些信息让我觉得整体可控性更强，虽然承认个体差异但未强调普遍拖长。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到大多数孩子规范治疗后几天到一两周恢复，二次返诊不占多数，并且医院有分诊等缓解措施，这些信息让我觉得整体可控性更强，虽然承认个体差异但未强调普遍拖长。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,2,1,True,,negative,negative,none,neutral,none,报道1提到的门诊拥挤、挂号困难、恢复慢等具体线索更贴近背景中的就医压力，虽然个体差异存在，但病程拖长和复诊增加显得更普遍。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到的门诊拥挤、挂号困难、恢复慢等具体线索更贴近背景中的就医压力，虽然个体差异存在，但病程拖长和复诊增加显得更普遍。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,none,support_positive,positive,报道1提到了医院通过分诊、延时门诊等具体应对措施，且多数孩子恢复在预期范围内，这些正式缓解线索让我觉得整体情况更可控。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到了医院通过分诊、延时门诊等具体应对措施，且多数孩子恢复在预期范围内，这些正式缓解线索让我觉得整体情况更可控。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,4,1,True,,negative,negative,none,neutral,none,报道1中提到了咳嗽拖得更久、复诊次数增加、夜间反复等具体症状，这些风险线索比报道2中笼统的恢复描述更具体。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中提到了咳嗽拖得更久、复诊次数增加、夜间反复等具体症状，这些风险线索比报道2中笼统的恢复描述更具体。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,none,neutral,positive,报道1提到大多数孩子规范治疗后恢复良好，且医院有分诊等应对措施，这让我觉得整体情况更可控，而报道2的个体经验虽然具体但代表性不足。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大多数孩子规范治疗后恢复良好，且医院有分诊等应对措施，这让我觉得整体情况更可控，而报道2的个体经验虽然具体但代表性不足。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,6,1,True,,negative,negative,none,neutral,none,报道1具体描述了咳嗽拖久、复诊增加和家庭负担上升，这些细节比报道2的‘大多恢复’更有实感。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1具体描述了咳嗽拖久、复诊增加和家庭负担上升，这些细节比报道2的‘大多恢复’更有实感。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,7,1,True,,negative,negative,none,neutral,negative,报道2提到的咳嗽拖长、复诊增加和夜间反复等具体线索更贴合我对现实压力的理解，而报道1的缓解措施虽好但感觉不够抵消这些累积负担。,,1,1,0,0,2,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2提到的咳嗽拖长、复诊增加和夜间反复等具体线索更贴合我对现实压力的理解，而报道1的缓解措施虽好但感觉不够抵消这些累积负担。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,8,1,True,,negative,negative,none,neutral,none,报道1中咳嗽拖久、复诊增多、门诊拥挤等具体线索更连续，虽然承认个体差异，但整体压力线索更充分。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中咳嗽拖久、复诊增多、门诊拥挤等具体线索更连续，虽然承认个体差异，但整体压力线索更充分。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,none,neutral,none,报道1提到了医院分诊、延时门诊等具体应对措施，以及大多数孩子按规范治疗后恢复，这些缓解证据比报道2的个体经验更具体和可验证。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1提到了医院分诊、延时门诊等具体应对措施，以及大多数孩子按规范治疗后恢复，这些缓解证据比报道2的个体经验更具体和可验证。""
+}"
+main,mycoplasma_pneumonia,independent,main_baseline_neutral,none,negative,positive,10,1,True,,negative,negative,none,neutral,none,报道1中提到的咳嗽拖得更久、复诊增加、夜间反复等具体症状持续线索，比报道2的笼统恢复说法更让我注意。,,1,1,0,0,1,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""none"",
+  ""comment_choice"": ""neutral"",
+  ""like_choice"": ""none"",
+  ""reason"": ""报道1中提到的咳嗽拖得更久、复诊增加、夜间反复等具体症状持续线索，比报道2的笼统恢复说法更让我注意。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,1,1,True,,negative,negative,negative,support_negative,negative,报道2中反复提及的病程拖长、复诊增加和家庭照护负担上升，与评论中提到的恢复节奏差异和复查观察必要性相互印证，让我更倾向于认为风险累积效应更值得关注。,,1,1,1,1,4,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2中反复提及的病程拖长、复诊增加和家庭照护负担上升，与评论中提到的恢复节奏差异和复查观察必要性相互印证，让我更倾向于认为风险累积效应更值得关注。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,2,1,True,,positive,positive,positive,support_positive,positive,报道2和评论都提到多数病例可常规处理，医院有应对措施，且评论点赞数接近，但报道2的可控线索更具体一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2和评论都提到多数病例可常规处理，医院有应对措施，且评论点赞数接近，但报道2的可控线索更具体一致。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,3,1,True,,positive,positive,positive,support_positive,positive,报道1提到大多数孩子规范治疗后恢复，且医院有分诊、延时门诊等应对，评论也印证了多数可常规处理，整体线索更具体一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大多数孩子规范治疗后恢复，且医院有分诊、延时门诊等应对，评论也印证了多数可常规处理，整体线索更具体一致。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,4,1,True,,negative,negative,negative,support_negative,negative,报道1中咳嗽拖久、复诊增加、恢复慢等具体线索更连贯，且评论也提到恢复节奏差异和观察复查，没有抵消这些风险点。,,1,1,1,1,4,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1中咳嗽拖久、复诊增加、恢复慢等具体线索更连贯，且评论也提到恢复节奏差异和观察复查，没有抵消这些风险点。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,5,1,True,,positive,positive,positive,support_positive,positive,报道1提到大多数孩子规范治疗后恢复，且有医院分诊等应对措施，评论也印证了常规处理和恢复节奏差异，整体线索更一致。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到大多数孩子规范治疗后恢复，且有医院分诊等应对措施，评论也印证了常规处理和恢复节奏差异，整体线索更一致。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,6,1,True,,negative,negative,negative,support_negative,negative,报道1中提到的咳嗽拖长、复诊增加和家庭负担上升等具体线索，与评论中提到的恢复节奏差异和复查观察相互印证，让我觉得风险描述更具体、更连续。,,1,1,1,1,4,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1中提到的咳嗽拖长、复诊增加和家庭负担上升等具体线索，与评论中提到的恢复节奏差异和复查观察相互印证，让我觉得风险描述更具体、更连续。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,7,1,True,,positive,positive,positive,support_positive,positive,报道1提到医院有分诊、延时门诊等应对措施，且评论也提到多数可常规处理，让我感觉整体可控性更强。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1提到医院有分诊、延时门诊等应对措施，且评论也提到多数可常规处理，让我感觉整体可控性更强。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,8,1,True,,positive,positive,positive,support_positive,positive,报道2和评论都提到大多数孩子恢复良好，且有医院应对措施，而报道1的风险线索多为个案且缺乏整体数据支撑。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_2"",
+  ""credible_choice"": ""report_2"",
+  ""share_choice"": ""report_2"",
+  ""comment_choice"": ""support_report_2"",
+  ""like_choice"": ""report_2"",
+  ""reason"": ""报道2和评论都提到大多数孩子恢复良好，且有医院应对措施，而报道1的风险线索多为个案且缺乏整体数据支撑。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,positive,negative,9,1,True,,positive,positive,positive,support_positive,positive,报道1具体描述了分诊、延时门诊等应对措施，且评论提到多数病例常规处理，缓解证据更具体。,,0,0,0,0,0,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1具体描述了分诊、延时门诊等应对措施，且评论提到多数病例常规处理，缓解证据更具体。""
+}"
+main,mycoplasma_pneumonia,low_feedback,main_baseline_neutral,none,negative,positive,10,1,True,,negative,negative,negative,support_negative,negative,报道1中咳嗽拖久、复诊增加、家庭负担上升等具体线索更连续，且评论提到恢复节奏差异，与报道1的个体经验一致，让我更倾向这一边。,,1,1,1,1,4,"{
+  ""final_choice"": ""report_1"",
+  ""credible_choice"": ""report_1"",
+  ""share_choice"": ""report_1"",
+  ""comment_choice"": ""support_report_1"",
+  ""like_choice"": ""report_1"",
+  ""reason"": ""报道1中咳嗽拖久、复诊增加、家庭负担上升等具体线索更连续，且评论提到恢复节奏差异，与报道1的个体经验一致，让我更倾向这一边。""
+}"

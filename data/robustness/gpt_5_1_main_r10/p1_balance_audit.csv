@@ -1,0 +1,3 @@
+experiment_family,scenario_name,persona_name,n_obs,negative_share,positive_share
+main,influenza_a,main_baseline_neutral,10,0.0,1.0
+main,mycoplasma_pneumonia,main_baseline_neutral,10,0.4,0.6
